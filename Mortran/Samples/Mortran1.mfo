@@ -1,0 +1,9 @@
+<I=1,200; J=I;
+    UNTIL M(J).EQ.0 <
+        J=M(J);
+    >
+    IF I.NE.J <
+        OUTPUT I,M(J+1); (' Chain',I4,' ends with ',A4);
+    >
+>
+
